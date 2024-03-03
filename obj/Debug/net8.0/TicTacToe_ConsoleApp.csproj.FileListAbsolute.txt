@@ -12,3 +12,4 @@ C:\Users\Brian\Desktop\Code\C#\Projects\CsharpProjects\TicTacToe_ConsoleApp\obj\
 C:\Users\Brian\Desktop\Code\C#\Projects\CsharpProjects\TicTacToe_ConsoleApp\obj\Debug\net8.0\TicTacToe_ConsoleApp.pdb
 C:\Users\Brian\Desktop\Code\C#\Projects\CsharpProjects\TicTacToe_ConsoleApp\obj\Debug\net8.0\TicTacToe_ConsoleApp.genruntimeconfig.cache
 C:\Users\Brian\Desktop\Code\C#\Projects\CsharpProjects\TicTacToe_ConsoleApp\obj\Debug\net8.0\ref\TicTacToe_ConsoleApp.dll
+C:\Users\Brian\Desktop\Code\C#\Projects\CsharpProjects\TicTacToe_ConsoleApp\obj\Debug\net8.0\TicTacToe_ConsoleApp.sourcelink.json
