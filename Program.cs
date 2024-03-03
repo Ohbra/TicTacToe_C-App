@@ -10,8 +10,9 @@ class Program
     static void Main(string[] args)
     {
         bool player1Turn = true;
+        int turns = 0;
 
-        while (!checkWinner())
+        while (!checkWinner() && turns != 9)
         {
             printGrid(grid);
             if (player1Turn)
@@ -19,18 +20,19 @@ class Program
             else System.Console.WriteLine("Player 2 Turn");
 
             string choice = Console.ReadLine();
-            int choiceIndex = int.Parse(choice) - 1;
-            System.Console.WriteLine(grid.Contains(choice));
+            int choiceIndex = Convert.ToInt32(choice) - 1;
 
             if(grid.Contains(choice) && choice != "X" && choice != "O"){
                 if(player1Turn)  grid[choiceIndex] = "X";
                 else grid[choiceIndex] = "O";
+                turns++;
                 player1Turn = !player1Turn;
             }
 
-            if(checkWinner()) System.Console.WriteLine("You win");
-
         }
+
+        if(!checkWinner()) System.Console.WriteLine("It's a draw");
+        else System.Console.WriteLine("You win");
 
     }
 
